@@ -26,14 +26,14 @@ Steps Taken:
    - Skipped WAN setup in the browser interface
 
 3. **Accessed pfSense GUI from Kali**
-   - Assigned Kali IP: `192.168.100.10`
+   - Assigned Kali IP: `192.168.56.1`
    - Opened browser and visited `https://192.168.56.1`
 
 4. **Enabled DHCP on pfSense LAN interface**
    - Range: `192.168.100.50 – 192.168.100.100`
 
 5. **Connected Windows 10 VM to the same Internal Network**
-   - Received IP via DHCP: `192.168.100.53`
+   - Received IP via DHCP: `192.168.56.1`
 
 6. **Created a firewall rule in pfSense**
    - Allowed ICMP protocol to enable ping between machines
